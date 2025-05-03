@@ -1,0 +1,32 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 2rem;
+}
+
+h1 {
+  margin-bottom: 1.5rem;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.buttons button {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.buttons img {
+  width: 100px;           /* adjust size as needed */
+  height: auto;
+  transition: transform .15s;
+}
+
+.buttons img:active {
+  transform: scale(0.9);  /* visual feedback on tap */
+}
