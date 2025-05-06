@@ -1,5 +1,5 @@
 function submitResponse(choice) {
-  const url = https://script.google.com/macros/s/AKfycbxdZlfmKnrDCOASvUF-FbSd1JhKspxKF__NQE8oIPBgUMs0BqnZ6D391sQh-jJ8wzQb/exec
+  const url = https://script.google.com/macros/s/AKfycbxdZlfmKnrDCOASvUF-FbSd1JhKspxKF__NQE8oIPBgUMs0BqnZ6D391sQh-jJ8wzQb/exec;
 
   // Prepare payload
   const payload = JSON.stringify({
