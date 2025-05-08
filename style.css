@@ -4,29 +4,24 @@ body {
   padding: 2rem;
 }
 
-h1 {
-  margin-bottom: 1.5rem;
-}
-
 .buttons {
   display: flex;
   justify-content: center;
   gap: 1rem;
 }
 
-.buttons button {
-  background: none;
-  border: none;
-  padding: 0;
-  cursor: pointer;
-}
-
 .buttons img {
-  width: 100px;           /* adjust size as needed */
+  width: 100px;
   height: auto;
-  transition: transform .15s;
+  transition: transform .1s;
 }
 
 .buttons img:active {
-  transform: scale(0.9);  /* visual feedback on tap */
+  transform: scale(0.9);
+}
+
+/* thank-you screen styling */
+.thankyou-screen {
+  margin-top: 2rem;
+  font-size: 1.5rem;
 }

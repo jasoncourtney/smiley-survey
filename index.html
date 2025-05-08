@@ -2,13 +2,15 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>How do you feel today?</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>How was the food today?</h1>
-  <div class="buttons">
+  <h1>How do you feel today?</h1>
+
+  <!-- survey buttons -->
+  <div class="buttons" id="survey">
     <button onclick="submitResponse('happy')" aria-label="Happy">
       <img src="images/happy.png" alt="Happy face">
     </button>
@@ -19,6 +21,12 @@
       <img src="images/sad.png" alt="Sad face">
     </button>
   </div>
+
+  <!-- thank-you screen, hidden by default -->
+  <div id="thankyou" class="thankyou-screen" hidden>
+    <h2>Thank you!</h2>
+  </div>
+
   <script src="script.js"></script>
 </body>
 </html>
